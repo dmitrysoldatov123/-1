@@ -1,0 +1,8 @@
+public function actionIndex()
+    {
+        $login = new LoginForm();
+        if(isset($_POST['LoginForm'])){
+            
+        }
+        $this->render('index', array('login' => $login));
+    } 
