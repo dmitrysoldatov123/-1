@@ -4,5 +4,10 @@ public function actionIndex()
         if(isset($_POST['LoginForm'])){
             
         }
-        $this->render('index', array('login' => $login));
+    
+    
+    12414
+    
+    $this->render('index', array('login' => $login));
     } 
+    
